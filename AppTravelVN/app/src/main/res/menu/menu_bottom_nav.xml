@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_home"
+    android:title="@string/acction_home"
+    android:icon="@drawable/ic_home_24"/>
+    <item android:id="@+id/action_fav"
+        android:title="@string/acction_fav"
+        android:icon="@drawable/ic_place"/>
+    <item android:id="@+id/action_video"
+        android:title="@string/acction_video"
+        android:icon="@drawable/ic_video_24"/>
+    <item android:id="@+id/action_mypage"
+        android:title="@string/acction_my_page"
+        android:icon="@drawable/ic_circle_24"/>
+
+</menu>

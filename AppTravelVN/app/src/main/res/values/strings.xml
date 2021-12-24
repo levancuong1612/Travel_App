@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppTravelVN</string>
+    <string name="acction_home">Home</string>
+    <string name="acction_fav">Location</string>
+    <string name="acction_my_page">My page</string>
+    <string name="acction_video">Video</string>
+</resources>

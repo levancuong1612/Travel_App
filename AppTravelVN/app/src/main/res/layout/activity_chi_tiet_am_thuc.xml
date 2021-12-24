@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ChiTietAmThucActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageChiTietAmThuc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:scaleType="fitXY"
+                android:src="@drawable/amthuc1" />
+
+            <TextView
+                android:id="@+id/textViewTenChiTietDiaDiem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:text="Ẩm Thực"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:text="Tổng quan"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewTongQuanAmthuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+thông tin mô tả của địa điêm du lịch
+"
+                android:textColor="#514B4B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Địa chỉ:"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/textViewDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text=""
+                android:textColor="#514B4B" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Hình ảnh"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageHinhAnhChiTietAmThuc1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_span="2"
+                android:scaleType="fitXY"
+                android:src="@drawable/amthuc2" />
+
+            <ImageView
+                android:id="@+id/imageHinhAnhChiTietAmThuc2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_span="2"
+                android:scaleType="fitXY"
+                android:src="@drawable/amthuc4" />
+
+            <ImageView
+                android:id="@+id/imageHinhAnhChiTietAmThuc3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_span="2"
+                android:scaleType="fitXY"
+                android:src="@drawable/amthuc3" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
